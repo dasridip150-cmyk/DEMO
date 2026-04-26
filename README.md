@@ -67,7 +67,7 @@ function type() {
 type();
 
 // ⏳ COUNTDOWN (SET DATE HERE)
-let countDate = new Date("May 25, 2026 00:00:10").getTime();
+let countDate = new Date("May 25, 2026 00:00:00").getTime();
 
 let x = setInterval(function() {
   let now = new Date().getTime();
